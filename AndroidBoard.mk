@@ -13,5 +13,5 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
-# include the non-open-source counterpart to this file
--include vendor/lenovo/A6020/AndroidBoardVendor.mk
+# Include the non-open-source counterpart to this file
+include vendor/lenovo/A6020/AndroidBoardVendor.mk
