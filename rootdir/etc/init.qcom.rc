@@ -548,6 +548,8 @@ service qcom-post-boot /system/etc/init.qcom.post_boot.sh
     oneshot
 
 on property:sys.boot_completed=1
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor	interactive
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor interactive
     start qcom-sh
     start qcom-post-boot
     setprop sys.io.scheduler "bfq"
