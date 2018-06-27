@@ -328,6 +328,7 @@ service wcnss-service /system/bin/wcnss_service
     class main
     user system
     group system wifi radio
+    oneshot
 
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
