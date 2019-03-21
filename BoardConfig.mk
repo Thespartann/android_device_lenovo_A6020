@@ -16,8 +16,8 @@
 #
 
 
-# inherit from the proprietary version
--include vendor/lenovo/a6020/BoardConfigVendor.mk
+# Inherit from the proprietary files
+include vendor/lenovo/a6020/BoardConfigVendor.mk
 
 LOCAL_PATH := device/lenovo/a6020
 
